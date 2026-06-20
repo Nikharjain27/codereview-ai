@@ -1,0 +1,35 @@
+# Mac
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Angular
+dist/
+
+# Docker
+*.tar
+
+# Coverage
+coverage/
+
+# OS
+Thumbs.db
