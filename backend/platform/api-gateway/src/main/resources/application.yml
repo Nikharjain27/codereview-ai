@@ -2,6 +2,14 @@ spring:
   application:
     name: api-gateway
 
+  cloud:
+    gateway:
+      routes:
+        - id: google
+          uri: https://www.google.com
+          predicates:
+            - Path=/test/**
+
 server:
   port: 8080
 
